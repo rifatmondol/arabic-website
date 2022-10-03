@@ -1,0 +1,1090 @@
+@font-face {
+  font-family: "DIN NEXT™ ARABIC BLACK";
+  src: url('../fonts/DIN NEXT LT W23 BLACK.OTF');
+}
+@font-face {
+	font-family: "DIN NEXT™ ARABIC HEAVY";
+	src: url('../fonts/DIN NEXT LT W23 HEAVY.OTF');
+}
+@font-face {
+	font-family: "DIN NEXT™ ARABIC LIGHT";
+	src: url('../fonts/DIN NEXT LT W23 LIGHT.OTF');
+}
+@font-face {
+  font-family: "DIN NEXT™ ARABIC MEDIUM";
+  src: url('../fonts/DIN NEXT LT W23 MEDIUM.OTF');
+}
+@font-face {
+  font-family: "DIN NEXT™ ARABIC REGULAR";
+  src: url('../fonts/DIN NEXT LT W23 REGULAR.OTF');
+}
+@font-face {
+  font-family: "DIN NEXT™ ARABIC ULTRA LIGHT";
+  src: url('../fonts/DIN NEXT LT W23 ULTRA LIGHT.OTF');
+}
+@font-face {
+  font-family: "DIN NEXT™ ARABIC BOLD";
+  src: url('../fonts/DIN-NEXT™-ARABIC-BOLD.OTF');
+}
+
+body{
+	font-family: "DIN NEXT™ ARABIC REGULAR";
+}
+.container.cusbg {
+    max-width: 100%;
+    background: #191745;
+    padding: 0;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+/*
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: gray;
+    transition: .3s ease;
+}*/
+
+/* .dropdown-menu.sub-menu a.dropdown-item:hover {
+    color: gray!important;
+    transition: .3s ease;
+}
+ */
+/* ul.list-unstyled.sub-menu li a:hover{
+  color: gray!important;
+  transition: .3s ease;
+} */
+
+.col-lg-9{
+  padding: 0;
+}
+.col-lg-3{
+	text-align: center;
+}
+.row{
+  margin-right: 0!important;
+  margin-left: 0!important;
+}
+.header-section{
+	width: 1400px;
+	margin: 0 auto;
+}
+.header-section .col-md-3 a{
+	display: inline-block;
+}
+.header-section p {
+    color: #fff;
+    font-family: "DIN NEXT™ ARABIC MEDIUM";
+    font-size: 16px;
+}
+.header-section ul li span{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	color: #fff;
+}
+
+.header-section ul.social-icon {
+    padding-left: 35px;
+    margin-bottom: 10px;
+    margin-top: 4rem!important;
+}
+.navbar-dark .navbar-toggler{
+	border: none;
+}
+.navbar-dark .navbar-toggler:focus{
+	outline: none;
+}
+.navbar-toggler-icon {
+  font-size: 25px!important;
+}
+.navbar {
+    padding-left: 30px;
+}
+
+.navbar.nav-p{
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding: 0px 10px 0px 7px;
+    border-right: 1px solid #4c4c4c;
+    font-family: "DIN NEXT™ ARABIC BOLD";
+    font-size: 16px;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 0rem;
+}
+
+.header-section ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.header-section ul.social-icon li a{
+  font-size: 20px;
+  font-family: "DIN NEXT™ ARABIC MEDIUM";
+}
+.header-section ul li span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+.header-section ul li a span i{
+	color: #191745;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 14px;
+}
+.header-section .col-lg-3.col-md-12.mt-3 p span{
+  font-size: 25px;
+  font-family: "DIN NEXT™ ARABIC BOLD";
+}
+.navbar-expand-md .navbar-nav {
+    padding-left: 0;
+    /* width: 100%; */
+    padding-right: 0;
+}
+.nav-item{
+  position: relative;
+}
+
+.nav-item .nav-link.nav-first {
+    border-right: none!important;
+}
+
+.container.footer-container{
+	max-width: 100%;
+    padding: 0;
+}
+
+
+/* Dropdown */
+
+.navbar .collapse.navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+    font-size: 17px;
+    font-family: "DIN NEXT™ ARABIC REGULAR";
+    position: relative;
+}
+
+.nav-link.nav-first.current, .nav-link.current, .current{
+    color: #C08B26!important;
+}
+
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    background: #191745;
+}
+
+.dropdown-toggle::after {
+    font-size: 12px;
+    position: relative;
+    top: 2px;
+    left: -2px;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(90deg);
+  position: absolute;
+  left: 6px;
+  top: 1.6em;
+}
+
+.nav-link.dropdown-toggle{
+  cursor: pointer
+}
+.dropdown-menu > ul{
+  padding-right: 0;
+}
+.dropdown-menu > ul li a.dropdown-item{
+  color: #fff;
+  cursor: pointer;
+}
+
+
+li.nav-item{
+    z-index: 99!important;
+}
+.dropdown-menu {
+    display: inherit!important;
+    top: -100%!important;
+    visibility: hidden!important;
+    opacity: 0!important;
+    z-index: -99!important;
+    transition: all 0.3s ease 0s, visibility 0s linear 0.3s!important;
+}
+.dropdown-menu.show {
+  display: inherit!important;
+    visibility: visible!important;
+    z-index: 1!important;
+    opacity: 1!important;
+    top: 100%!important;
+    transition-delay: 0s,0s,0.3s!important;
+    padding: .5rem 0!important;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  right: 100%;
+}
+.dropdown-submenu .dropdown-menu.show {
+  top: 0!important;
+}
+
+
+
+/* End dropdown */
+
+
+
+/* Slider section */
+.slider-item{
+	height: 500px;
+	position: relative;
+}
+.slider-item.item-1{
+	background: url('../img/slider-bg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.slider-item.item-2{
+	background: url('../img/slider-bg-2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.slider-item.item-3{
+	background: url('../img/slider-bg-3.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.slider-item .slider-text{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	background: #F2F1E7;
+	padding: 25px;
+	transform: translateY(-50%);
+}
+
+.slider-item .slider-text h2{
+	font-size: 53px;
+  font-family: "DIN NEXT™ ARABIC BOLD";
+}
+.slider-item .slider-text h5{
+  margin-bottom: 0;
+  font-size: 33px;
+}
+
+.owl-theme .owl-dots {
+    text-align: center!important;
+    position: absolute!important;
+    right: 0!important;
+    left: 0!important;
+    bottom: 10px!important;
+}
+.owl-theme .owl-dots span {
+    width: 18px!important;
+    height: 18px!important;
+    background: #fff!important;
+    display: inline-block!important;
+    margin: 0px 25px 0px 0px!important;
+    border-radius: 50%!important;
+}
+button.owl-dot.active  span{
+    background: #6a6b6b!important;
+}
+button.owl-dot:focus{
+  outline: none;
+}
+
+
+/* Service article section */
+.service-article{
+	background: #F2F1EA;
+	padding: 70px 0px;
+}
+.service-article .service-article-text h2{
+  font-size: 45px;
+  font-family: "DIN NEXT™ ARABIC BOLD";
+}
+.service-article .service-article-text h5{
+  font-size: 23px;
+  font-family: "DIN NEXT™ ARABIC REGULAR";
+}
+
+/* Main service section */
+.main-service-section {
+    width: 70%;
+    margin: 80px auto;
+}
+.main-service-section .service-item .service-item-image img{
+	width: 100px;
+	height: 100px;
+}
+.main-service-section .service-item .service-item-text h3{
+  font-size: 36px;
+  font-family: "DIN NEXT™ ARABIC BOLD";
+}
+.main-service-section .service-item .service-item-text p{
+  font-size: 23px;
+  font-family: "DIN NEXT™ ARABIC MEDIUM";
+}
+
+/* Pricing section */
+.pricing-details{
+	width: 70%;
+  margin: 50px auto;
+}
+.pricing-details .col-md-3{
+  padding: 10px;
+}
+.pricing-details img{
+	width: 100%;
+	height: 300px;
+	box-shadow: 0px 0px 0px 5px #ece9ce;
+}
+.pricing-section .pricing-header h2{
+  font-size: 45px;
+  font-family: "DIN NEXT™ ARABIC HEAVY";
+}
+.pricing-section .pricing-header p{
+  font-size: 23px;
+  font-family: "DIN NEXT™ ARABIC REGULAR";
+}
+
+
+/* Footer section */
+.footer-main{
+	background: #F2F1EA;
+}
+.footer-section {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 15px 0px 0px 0px;
+}
+.footer-section ul li {
+    font-size: 15px;
+    font-family: "DIN NEXT™ ARABIC REGULAR";
+}
+
+.footer-section h3{
+	font-family: "DIN NEXT™ ARABIC HEAVY";
+  font-size: 32px;
+}
+.footer-section h3:before {
+    content: '';
+    width: 30%;
+    height: 2px;
+    background: #262D2F;
+    position: absolute;
+    top: 20px;
+    left: 30%;
+}
+.footer-section h3.last:before {
+    width: 25%;
+    left: 25%;
+}
+.footer-section .col-md-5 span {
+    display: block;
+    padding: 0px 0px 43px 0px;
+    font-size: 14px;
+    color: #191745;
+    font-family: "DIN NEXT™ ARABIC MEDIUM";
+}
+.footer-section .col-md-7 {
+    padding: 0px;
+    margin-right: -50px;
+    text-align: justify;
+}
+.footer-section .col-lg-4.col-md-6 {
+    text-align: justify;
+}
+.footer-section .col-md-7 a{
+    text-decoration: none;
+    color: #000;
+}
+.footer-section ul li span i{
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   background: #191745;
+   line-height: 25px;
+   text-align: center;
+   border-radius: 50%;
+   color: #fff;
+   font-size: 14px;
+}
+.footer-section .col-md-4:last-child ul li span{
+   display: inline-block;
+   margin: 5px;
+}
+.footer-section .col-lg-4.col-md-6 p {
+    font-size: 15px;
+}
+/* copyright */
+.copyright{
+	background: #191745;
+	text-align: center;
+}
+.copyright p{
+	margin: 0;
+	color: #fff;
+	padding: 20px 0px;
+  font-family: "DIN NEXT™ ARABIC MEDIUM";
+  font-size: 20px;
+}
+/*=========== 101 page end *==============/
+
+
+
+
+/*========= Site map css =========*/
+/* Sub header */
+.sub-header,
+.sub-header-2{
+  text-align: center;
+}
+.sub-header{
+  background: #C4C5C4;
+}
+.sub-header-2{
+  background: #F2F1EA;
+}
+.sub-header h4,
+.sub-header-2 h4{
+  margin: 0;
+  padding: 20px 0px;
+  font-weight: 600;
+  text-shadow: 0 0 black;
+}
+
+/* Map */
+.map{
+  width: 85%;
+  margin: 50px auto;
+}
+.map iframe{
+  width: 100%;
+  height: 500px;
+}
+
+
+
+
+/*========= Reservation CSS =========*/
+.sub-header{
+  background: #C4C5C4;
+  text-align: center;
+}
+.sub-header h4{
+  margin: 0;
+  padding: 20px 0px 25px 0px;
+  font-weight: 600;
+  text-shadow: 0 0 black;
+  color: #191745;
+}
+
+/* reservation area */
+.reservation-area h5{
+  text-align: center;
+  font-weight: 600;
+  padding: 60px 0px 20px 0px;
+}
+form{
+  width: 85%;
+  margin: 0 auto;
+  text-align: right;
+}
+form .col-md-12{
+  margin-bottom: 15px;
+}
+form h5{
+  padding: 0px 0px 15px 0px;
+  font-weight: 600;
+}
+form label{
+  background: #C4C5C4;
+  padding: 0px 10px 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+form input{
+  width: 34%;
+  padding: 7px;
+  vertical-align: top;
+  background: #F2F1EA;
+  border:  none;
+}
+form input:focus{
+  outline: none;
+}
+form .col-md-12 button{
+  padding: 0px 43px 8px;
+  background: #191745;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.table-section .btn.submit{
+  margin-top: 5px;
+    margin-left: 15px;
+}
+
+/*========= table section =========*/
+.table-section{
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.table-section h5{
+  text-align: right;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.table td{
+  padding: 1.5rem;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 5px solid #fff;
+}
+.table thead tr th{
+  background: #C4C5C4;
+  font-size: 22px;
+}
+.table tbody tr td{
+  background: #F2F1EA;
+}
+.col-md-11 button{
+  font-size: 20px;
+  padding: 5px 50px 10px;
+  background: #151643;
+  color: #fff;
+}
+.table thead tr th:first-child,
+.table tbody tr td:first-child{
+  border-right: none;
+}
+
+
+
+
+
+/*========= 102 CSS =========*/
+.media-section{
+  text-align: center;
+  margin: 50px auto;
+}
+.media-section h2 {
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 0 0 #000001;
+    font-family: "DIN NEXT™ ARABIC HEAVY";
+}
+.media-section h5,
+.media-checkbox label{
+  font-size: 20px;
+  font-family: "DIN NEXT™ ARABIC MEDIUM";
+}
+.media-checkbox{
+  width: 40%;
+  margin: 40px auto;
+  text-align: center;
+}
+input[type="radio"]{
+  width: 20px;
+  height: 20px;
+}
+
+.media-center-gallery{
+  width: 90%;
+  margin: 0 auto;
+}
+.media-center-gallery .media-center-item{
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+}
+.media-center-gallery .media-center-item img {
+    width: 100%;
+    height: 270px;
+    transition: 0.4s;
+}
+.media-center-gallery .media-center-item i{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: #fff;
+  cursor: pointer;
+}
+.media-center-gallery .media-center-item img:hover{
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+.media-center-gallery .media-center-item img.img-transform:hover{
+  transform: scale(1);
+}
+
+
+.lightbox {
+    width: 100%;
+    z-index: 10000;
+    font-weight: 400;
+    outline: 0;
+    position: fixed;
+    top: 50%!important;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+/*========= ELECTROCIC CSS =========*/
+form {
+  margin-top: 50px;
+}
+form .col-md-12 {
+  margin-bottom: 0;
+}
+.table-section button{
+  font-size: 20px;
+  padding: 5px 45px 10px;
+  background: #151643;
+  color: #fff;
+}
+.table thead tr th:last-child,
+.table tbody tr td:last-child{
+  border-left: none;
+}
+.table thead tr th{
+  border-top: none;
+}
+.table{
+  margin-bottom: 0;
+}
+
+
+
+
+/*========= 103 page CSS =========*/
+.navbar .collapse.navbar-collapse .navbar-nav .nav-item .dropdown-menu ul .dropdown-item ul.drop-1 li a{
+    color: #C08B26;
+}
+
+.header-contant{
+    text-align: right;
+}
+.header-contant ul{
+    list-style: none;
+}
+.header-contant ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 35px;
+    display: block;
+}
+.heading1-top h2 {
+    padding: 15px 0px;
+    font-size: 23px;
+    color: #191954;
+}
+.heading1-top {
+    background: #C4C5C4;
+}
+.header-contant {
+    padding: 14px 0px 35px 0px;
+}
+.video-section-middel iframe {
+    width: 70%;
+    height: 70vh;
+    border-radius: 15px;
+}
+.header1-top-main{
+    margin-top: 40px;
+}
+.header1-top-main {
+    margin-top: 71px;
+}
+.single-images img {
+    width: 100%;
+    height: 286px;
+}
+.images-section-main {
+    margin-bottom: 46px;
+    margin-top: 41px;
+}
+.header-contant ul li a,
+ .heading2-top h2,
+ .heading1-top h2  {
+    font-weight: 600;
+}
+
+
+
+
+
+/*========= 105 page CSS =========*/
+.header-contant5{
+    text-align: right;
+}
+.header-contant5 ul{
+    list-style: none;
+}
+.header-contant5 ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 35px;
+    display: block;
+}
+.heading5-top h2 {
+    padding: 15px 0px;
+    font-size: 23px;
+    color: #191954;
+}
+.heading5-top {
+    background: #C4C5C4;
+}
+.header-contant5 {
+    padding: 14px 0px 35px 0px;
+}
+.video-section-middel iframe {
+    width: 70%;
+    height: 70vh;
+    border-radius: 15px;
+}
+.header5-top-main{
+    margin-top: 40px;
+}
+.header5-top-main {
+    margin-top: 71px;
+}
+.header-contant5 ul li a,
+ .heading5-top h2 {
+    font-weight: 600;
+}
+
+
+
+
+/*========= 108 page CSs =========*/
+.heading-main109 {
+    background: #C4C5C4;
+}
+.heading-main109 h2 {
+    padding: 10px 0px;
+}
+.heading-main109 h2 {
+    padding: 21px 0px;
+    margin: 0px;
+    color: #191745;
+    font-size: 23px;
+    font-weight: bold;
+}
+.img-main109 img {
+    width: 100%;
+    padding: 34px;
+}
+.main-images109 {
+    margin-top: 119px;
+    margin-bottom: 50px;
+}
+.images-heading109 h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -22px;
+}
+
+
+
+
+
+/*========= 109 PAGE CSS =========*/
+.heading-main109 {
+    background: #C4C5C4;
+}
+.heading-main109 h2 {
+    padding: 10px 0px;
+}
+.heading-main109 h2 {
+    padding: 21px 0px;
+    margin: 0px;
+    color: #191745;
+    font-size: 23px;
+    font-weight: bold;
+}
+.img-main109 img {
+    width: 100%;
+    display: block;
+}
+.main-images109 {
+    margin: 130px 0px;
+}
+.images-heading109 h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+/*========= 110 PAGE CSS =========*/
+.heading-main111 {
+    background: #C4C5C4;
+}
+.heading-main111 h2 {
+    padding: 10px 0px;
+}
+.heading-main111 h2 {
+    padding: 18px 0px;
+    margin: 0px;
+    color: #191745;
+    font-size: 25px;
+    font-weight: bold;
+}
+.img-main img {
+    width: 100%;
+    padding: 23px;
+}
+.main-images {
+    margin: 130px 0px;
+}
+.images-heading1 h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+/*========= 111 page CSS =========*/
+.heading-main111 {
+    background: #C4C5C4;
+}
+.heading-main111 h2 {
+    padding: 10px 0px;
+}
+.heading-main111 h2 {
+    padding: 18px 0px;
+    margin: 0px;
+    color: #191745;
+    font-size: 25px;
+    font-weight: bold;
+}
+.img-main img {
+    width: 100%;
+    padding: 23px;
+}
+.main-images {
+    margin: 130px 0px;
+}
+.images-heading1 h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+/*========= 112 PAGe CSS =========*/
+.post-area-main label {
+    display: block;
+    text-align: right;
+}
+.heading-top1 {
+    background: #C4C5C4;
+    margin-bottom: 35px;
+}
+.heading-top1 h2 {
+    padding: 17px 0px;
+    font-size: 24px;
+    color: #191745;
+    font-weight: 600;
+
+}
+.main-form {
+    margin-right: 67px;
+    text-align: right;
+}
+.main-form input {
+    width: 50%;
+}
+.main-form textarea {
+    width: 100%;
+}
+.main-form input:focus{
+    outline: none;
+}
+.main-form .form-2 label {
+    margin-bottom: 8px;
+    margin-top: 10px;
+    background: none;
+    padding: 0;
+}
+.main-form placeholder {
+    font-size: 10px;
+}
+.form-2{
+  width: 100%;
+  margin: 0;
+}
+.form-2 input{
+  background: none;
+}
+input#post1 {
+    font-size: 14px;
+    padding: 9px;
+}
+input#number {
+    font-size: 14px;
+    padding: 9px;
+}
+input#email {
+    font-size: 14px;
+    padding: 9px;
+}
+input#text {
+    font-size: 14px;
+    padding: 9px;
+}
+.main-form textarea {
+    width: 100%;
+    height: 170px;
+    margin-top: 17px;
+    border: 1px solid #000;
+    font-size: 15px;
+    padding: 12px;
+}
+.main-form textarea:focus {
+    outline: none;
+}
+.main-form input {
+    border: 1px solid #000;
+}
+
+.main-form label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main1 {
+    width: auto !important;
+    margin-bottom: 7px;
+}
+.main-form button {
+    padding: 5px 13px;
+    margin-bottom: 43px;
+    background: #191745;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.main-form button:focus {
+    outline: none;
+}
+.main2 {
+    height: 58px;
+}
+select{
+    width: 50%;
+    padding: 9px;
+    border: 1px solid #000;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select:focus{
+    outline: none;
+}
+
+.custom-caret:after{
+    font-family: "Font Awesome 5 free";
+    content: "\f0d7";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    position: absolute;
+    left: 51%;
+    padding-top: 8px;
+    color: #909293;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*======== 113 PAGE CSS ===================*/
+.header-contant{
+    text-align: right;
+}
+.header-contant ul{
+    list-style: none;
+}
+.header-contant ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 35px;
+    display: block;
+}
+.heading2-top {
+    background: #F2F1EA;
+}
+.heading2-top h2 {
+    padding: 15px 0px;
+    font-size: 23px;
+    color: #191954;
+}
+.heading1-top h2 {
+    padding: 15px 0px;
+    font-size: 23px;
+    color: #191954;
+}
+.heading1-top {
+    background: #C4C5C4;
+}
+.header-contant {
+    padding: 14px 0px 70px 0px;
+}
+
+.header-contant ul li a,
+ .heading2-top h2,
+ .heading1-top h2  {
+    font-weight: 600;
+}
